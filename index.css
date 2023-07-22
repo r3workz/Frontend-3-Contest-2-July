@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
+:root{
+	--colorText: #ffffff;
+	--colorBg: #1D1D23;
+	--colorBg1: #34344A;
+	--colorBtn:#39393E;
+	--colorBtn1: #F0F757;
+}
+
+*,*:before, *:after{
+	box-sizing: border-box;
+}
+
+html{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 62.5%;
+}
+
+body{
+	background-color: var(--colorBg);
+	color: var(--colorText);
+	text-align: center;
+	/*width: 80%;*/
+	/*margin: auto;*/
+}
+
+h1{
+	font-size: 2.25rem;
+	margin-top: 2.94rem;
+}
+
+input{
+	color: var(--colorText);
+	background-color: var(--colorBg1);
+	border: none;
+	font-size: 3rem;
+	font-style: normal;
+	font-weight: 500;
+	text-decoration-line: underline;
+	width: 6.2rem;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+input[type=number] {
+	-moz-appearance: textfield;
+}
+input[type=number]:focus {
+	outline: none;
+	border: none;
+}
+
+#noTimers {
+	margin-top: 3.06rem;
+	font-size: 1.5rem;
+}
+
+.timerBox{
+	background-color: var(--colorBg1);
+	display: flex;
+	flex-shrink: 0;
+	width: 53.0625rem;
+	height: 8.25rem;
+	border: none;
+	border-radius: 1.25rem;
+	align-items: center;
+	justify-content: space-between;
+	margin: 3.06rem auto auto;
+	padding-left: 2.6rem;
+	padding-right: 3rem;
+}
+
+
+.timerPreText{
+	font-size: 1.5rem;
+}
+
+.timer{
+	font-size: 3rem;
+	font-weight: 500;
+	display: flex;
+	width: 22.3125rem;
+
+	justify-content: center;
+}
+
+.timerBtn{
+	background-color: var(--colorBtn1);
+	width: 7.75rem;
+	height: 3.25rem;
+	flex-shrink: 0;
+	border: none;
+	border-radius: 1.625rem;
+	font-size: 1.125rem;
+	font-weight: 500;
+}
+
+#currentTimersBtn{
+	margin-top: 3rem;
+	width: 25.8125rem;
+	height: 4.125rem;
+	flex-shrink: 0;
+	border: none;
+	border-radius: 3.125rem;
+	background: var(--colorBtn);
+	color: var(--colorText);
+	font-size: 1.5rem;
+	font-weight: 500;
+}

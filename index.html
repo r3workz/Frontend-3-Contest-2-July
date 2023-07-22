@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Timer</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<h1>Multiple Timers App</h1>
+
+<div id="timerBoxMain" class="timerBox">
+	<div class="timerPreText">Set Time: </div>
+	<div class="timer">
+		<label for="hh"></label><input type="number" name="hh" id="hh" min="00" max="23" placeholder="hh">:&nbsp;&nbsp;
+		<label for="mm"></label><input type="number" name="hh" id="mm" min="00" max="59" placeholder="mm">&nbsp;&nbsp;:&nbsp;&nbsp;
+		<label for="ss"></label><input type="number" name="hh" id="ss" min="00" max="59" placeholder="ss">
+	</div>
+	<button id="timerSet" class="timerBtn">Set</button>
+</div>
+
+<button id="currentTimersBtn" type="button">Current Timers</button>
+
+<div id="viewTimers">
+	<p id = "noTimers">You have no timers currently!</p>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
